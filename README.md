@@ -6,7 +6,7 @@ Advanced **datastealer** coded on NodeJS for educational purposes.
 
 * [Node.js](https://nodejs.org/)
 
-## Install
+## Setup
 
 Installing:
 ```bash
