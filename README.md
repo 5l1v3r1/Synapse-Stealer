@@ -13,7 +13,7 @@ Installing:
 npm install
 npm i pkg
 ```
-Building:
+Compiling to exe:
 ```bash
 pkg config.json
 ```
